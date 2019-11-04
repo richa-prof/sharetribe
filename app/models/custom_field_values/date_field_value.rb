@@ -8,8 +8,8 @@
 #  text_value      :text(65535)
 #  numeric_value   :float(24)
 #  date_value      :datetime
-#  created_at      :datetime         not null
-#  updated_at      :datetime         not null
+#  created_at      :datetime
+#  updated_at      :datetime
 #  type            :string(255)
 #  delta           :boolean          default(TRUE), not null
 #  person_id       :string(255)

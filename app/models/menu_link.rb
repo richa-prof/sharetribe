@@ -4,8 +4,8 @@
 #
 #  id            :integer          not null, primary key
 #  community_id  :integer
-#  created_at    :datetime         not null
-#  updated_at    :datetime         not null
+#  created_at    :datetime
+#  updated_at    :datetime
 #  sort_priority :integer          default(0)
 #  entity_type   :integer          default("for_topbar")
 #

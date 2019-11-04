@@ -52,11 +52,13 @@
 # Indexes
 #
 #  community_author_deleted            (community_id,author_id,deleted)
-#  index_listings_on_category_id       (old_category_id)
+#  index_listings_on_category_old      (category_old)
 #  index_listings_on_community_id      (community_id)
 #  index_listings_on_listing_shape_id  (listing_shape_id)
+#  index_listings_on_listing_type_old  (listing_type_old)
 #  index_listings_on_new_category_id   (category_id)
 #  index_listings_on_open              (open)
+#  index_listings_on_share_type_old    (share_type_old)
 #  index_listings_on_state             (state)
 #  index_listings_on_uuid              (uuid) UNIQUE
 #  index_on_author_id_and_deleted      (author_id,deleted)

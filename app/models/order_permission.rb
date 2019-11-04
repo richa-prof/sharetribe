@@ -4,8 +4,8 @@
 #
 #  id                  :integer          not null, primary key
 #  paypal_account_id   :integer          not null
-#  created_at          :datetime         not null
-#  updated_at          :datetime         not null
+#  created_at          :datetime
+#  updated_at          :datetime
 #  request_token       :string(255)
 #  paypal_username_to  :string(255)      not null
 #  scope               :string(255)

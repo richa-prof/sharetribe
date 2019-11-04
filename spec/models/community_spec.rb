@@ -18,11 +18,11 @@
 #  automatic_newsletters                      :boolean          default(TRUE)
 #  join_with_invite_only                      :boolean          default(FALSE)
 #  allowed_emails                             :text(16777215)
-#  users_can_invite_new_users                 :boolean          default(TRUE)
+#  users_can_invite_new_users                 :boolean          default(FALSE)
 #  private                                    :boolean          default(FALSE)
 #  label                                      :string(255)
-#  show_date_in_listings_list                 :boolean          default(FALSE)
 #  all_users_can_add_news                     :boolean          default(TRUE)
+#  show_date_in_listings_list                 :boolean          default(FALSE)
 #  custom_frontpage_sidebar                   :boolean          default(FALSE)
 #  event_feed_enabled                         :boolean          default(TRUE)
 #  slogan                                     :string(255)
@@ -61,13 +61,13 @@
 #  name_display_type                          :string(255)      default("first_name_with_initial")
 #  twitter_handle                             :string(255)
 #  use_community_location_as_default          :boolean          default(FALSE)
-#  preproduction_stylesheet_url               :string(255)
 #  show_category_in_listing_list              :boolean          default(FALSE)
 #  default_browse_view                        :string(255)      default("grid")
 #  wide_logo_file_name                        :string(255)
 #  wide_logo_content_type                     :string(255)
 #  wide_logo_file_size                        :integer
 #  wide_logo_updated_at                       :datetime
+#  preproduction_stylesheet_url               :string(255)
 #  listing_comments_in_use                    :boolean          default(FALSE)
 #  show_listing_publishing_date               :boolean          default(FALSE)
 #  require_verification_to_post_listings      :boolean          default(FALSE)
@@ -90,12 +90,12 @@
 #  favicon_processing                         :boolean
 #  deleted                                    :boolean
 #  end_user_analytics                         :boolean          default(TRUE)
-#  show_slogan                                :boolean          default(TRUE)
-#  show_description                           :boolean          default(TRUE)
-#  hsts_max_age                               :integer
 #  footer_theme                               :integer          default("dark")
 #  footer_copyright                           :text(65535)
 #  footer_enabled                             :boolean          default(FALSE)
+#  show_slogan                                :boolean          default(TRUE)
+#  show_description                           :boolean          default(TRUE)
+#  hsts_max_age                               :integer
 #  logo_link                                  :string(255)
 #  google_connect_enabled                     :boolean
 #  google_connect_id                          :string(255)

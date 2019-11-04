@@ -1,24 +1,24 @@
 require File.expand_path('../../migrate_helpers/logging_helpers', __FILE__)
 
-class InitializeTransactionTypeUrls < ActiveRecord::Migration
+class InitializeTransactionTypeUrls < ActiveRecord::Migration[4.2]
   include LoggingHelper
 
-  def up
-    TransactionType.reset_column_information
+  # def up
+  #   TransactionType.reset_column_information
 
-    progress = ProgressReporter.new(Community.count, 100)
+  #   progress = ProgressReporter.new(Community.count, 100)
 
-    Community.find_each do |community|
-      community.transaction_types.each do |transaction_type|
-        transaction_type.ensure_unique_url
-        transaction_type.save!
-      end
+  #   Community.find_each do |community|
+  #     community.transaction_types.each do |transaction_type|
+  #       transaction_type.ensure_unique_url
+  #       transaction_type.save!
+  #     end
 
-      progress.next
-      print_dot
-    end
-  end
+  #     progress.next
+  #     print_dot
+  #   end
+  # end
 
-  def down
-  end
+  # def down
+  # end
 end

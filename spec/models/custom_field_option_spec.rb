@@ -5,8 +5,8 @@
 #  id              :integer          not null, primary key
 #  custom_field_id :integer
 #  sort_priority   :integer
-#  created_at      :datetime         not null
-#  updated_at      :datetime         not null
+#  created_at      :datetime
+#  updated_at      :datetime
 #
 # Indexes
 #

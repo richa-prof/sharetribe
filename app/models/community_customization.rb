@@ -8,8 +8,8 @@
 #  name                                       :string(255)
 #  slogan                                     :string(255)
 #  description                                :text(65535)
-#  created_at                                 :datetime         not null
-#  updated_at                                 :datetime         not null
+#  created_at                                 :datetime
+#  updated_at                                 :datetime
 #  blank_slate                                :text(65535)
 #  welcome_email_content                      :text(65535)
 #  how_to_use_page_content                    :text(16777215)

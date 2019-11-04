@@ -5,8 +5,8 @@
 #  id            :integer          not null, primary key
 #  parent_id     :integer
 #  icon          :string(255)
-#  created_at    :datetime         not null
-#  updated_at    :datetime         not null
+#  created_at    :datetime
+#  updated_at    :datetime
 #  community_id  :integer
 #  sort_priority :integer
 #  url           :string(255)

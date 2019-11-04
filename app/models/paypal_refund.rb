@@ -8,8 +8,8 @@
 #  payment_total_cents :integer
 #  fee_total_cents     :integer
 #  refunding_id        :string(64)
-#  created_at          :datetime         not null
-#  updated_at          :datetime         not null
+#  created_at          :datetime
+#  updated_at          :datetime
 #
 # Indexes
 #

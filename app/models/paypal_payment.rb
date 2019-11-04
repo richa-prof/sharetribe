@@ -22,8 +22,8 @@
 #  fee_total_cents            :integer
 #  payment_status             :string(64)       not null
 #  pending_reason             :string(64)
-#  created_at                 :datetime         not null
-#  updated_at                 :datetime         not null
+#  created_at                 :datetime
+#  updated_at                 :datetime
 #  commission_payment_id      :string(64)
 #  commission_payment_date    :datetime
 #  commission_status          :string(64)       default("not_charged"), not null

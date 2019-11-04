@@ -13,8 +13,8 @@
 #  minimum_transaction_fee_cents          :integer
 #  minimum_transaction_fee_currency       :string(3)
 #  confirmation_after_days                :integer          not null
-#  created_at                             :datetime         not null
-#  updated_at                             :datetime         not null
+#  created_at                             :datetime
+#  updated_at                             :datetime
 #  api_client_id                          :string(255)
 #  api_private_key                        :string(255)
 #  api_publishable_key                    :string(255)

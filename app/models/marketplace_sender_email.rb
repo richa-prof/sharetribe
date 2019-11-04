@@ -8,8 +8,8 @@
 #  email                     :string(255)      not null
 #  verification_status       :string(32)       not null
 #  verification_requested_at :datetime
-#  created_at                :datetime         not null
-#  updated_at                :datetime         not null
+#  created_at                :datetime
+#  updated_at                :datetime
 #
 # Indexes
 #

@@ -5,8 +5,8 @@
 #  id                   :integer          not null, primary key
 #  paypal_account_id    :integer          not null
 #  billing_agreement_id :string(255)
-#  created_at           :datetime         not null
-#  updated_at           :datetime         not null
+#  created_at           :datetime
+#  updated_at           :datetime
 #  paypal_username_to   :string(255)      not null
 #  request_token        :string(255)      not null
 #

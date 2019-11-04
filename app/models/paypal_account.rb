@@ -7,8 +7,8 @@
 #  community_id :integer
 #  email        :string(255)
 #  payer_id     :string(255)
-#  created_at   :datetime         not null
-#  updated_at   :datetime         not null
+#  created_at   :datetime
+#  updated_at   :datetime
 #  active       :boolean          default(FALSE)
 #
 # Indexes

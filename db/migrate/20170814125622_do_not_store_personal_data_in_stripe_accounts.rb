@@ -1,4 +1,4 @@
-class DoNotStorePersonalDataInStripeAccounts < ActiveRecord::Migration[5.1]
+class DoNotStorePersonalDataInStripeAccounts < ActiveRecord::Migration[4.2][5.1]
   def change
     remove_column :stripe_accounts, :first_name
     remove_column :stripe_accounts, :last_name

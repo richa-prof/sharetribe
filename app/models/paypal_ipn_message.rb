@@ -5,8 +5,8 @@
 #  id         :integer          not null, primary key
 #  body       :text(65535)
 #  status     :string(64)
-#  created_at :datetime         not null
-#  updated_at :datetime         not null
+#  created_at :datetime
+#  updated_at :datetime
 #
 
 class PaypalIpnMessage < ApplicationRecord

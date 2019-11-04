@@ -7,8 +7,8 @@
 #  locale       :string(255)
 #  url          :string(255)
 #  title        :string(255)
-#  created_at   :datetime         not null
-#  updated_at   :datetime         not null
+#  created_at   :datetime
+#  updated_at   :datetime
 #
 # Indexes
 #

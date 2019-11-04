@@ -1,4 +1,4 @@
-class ProvisionStripePaymentSettingsToAllUsers < ActiveRecord::Migration[5.1]
+class ProvisionStripePaymentSettingsToAllUsers < ActiveRecord::Migration[4.2][5.1]
   def up
     communities_with_stripe_ids    = connection.select_values("SELECT community_id FROM payment_settings WHERE payment_gateway = 'stripe'")
 

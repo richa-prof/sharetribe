@@ -7,8 +7,8 @@
 #  locale          :string(16)       not null
 #  translation_key :string(255)      not null
 #  translation     :text(65535)
-#  created_at      :datetime         not null
-#  updated_at      :datetime         not null
+#  created_at      :datetime
+#  updated_at      :datetime
 #
 # Indexes
 #

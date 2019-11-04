@@ -11,8 +11,8 @@
 #  automatic_confirmation_after_days :integer          not null
 #  community_id                      :integer          not null
 #  community_uuid                    :binary(16)       not null
-#  created_at                        :datetime         not null
-#  updated_at                        :datetime         not null
+#  created_at                        :datetime
+#  updated_at                        :datetime
 #  starter_skipped_feedback          :boolean          default(FALSE)
 #  author_skipped_feedback           :boolean          default(FALSE)
 #  last_transition_at                :datetime

@@ -1,33 +1,33 @@
 require File.expand_path('../../migrate_helpers/logging_helpers', __FILE__)
 
-class MigrateConversationToFreeStatus < ActiveRecord::Migration
+class MigrateConversationToFreeStatus < ActiveRecord::Migration[4.2]
   include LoggingHelper
 
-  def up
-    convs = ListingConversation.select { |conv| conv.status != "free" && no_payments?(conv.community) }
+  # def up
+  #   convs = ListingConversation.select { |conv| conv.status != "free" && no_payments?(conv.community) }
 
-    puts ""
-    puts "This migration will change the status of #{convs.size} conversations to 'free'"
-    puts ""
+  #   puts ""
+  #   puts "This migration will change the status of #{convs.size} conversations to 'free'"
+  #   puts ""
 
-    progress = ProgressReporter.new(convs.size, 100)
+  #   progress = ProgressReporter.new(convs.size, 100)
 
-    convs.each do |conv|
-      conv.transaction_transitions.destroy_all
-      state_machine = TransactionProcess.new(conv, transition_class: TransactionTransition)
-      state_machine.transition_to! "free"
+  #   convs.each do |conv|
+  #     conv.transaction_transitions.destroy_all
+  #     state_machine = TransactionProcess.new(conv, transition_class: TransactionTransition)
+  #     state_machine.transition_to! "free"
 
-      progress.next
-      print_dot
-    end
-  end
+  #     progress.next
+  #     print_dot
+  #   end
+  # end
 
-  def down
-  end
+  # def down
+  # end
 
-  private
+  # private
 
-  def no_payments?(community)
-    community && !community.payments_in_use?
-  end
+  # def no_payments?(community)
+  #   community && !community.payments_in_use?
+  # end
 end

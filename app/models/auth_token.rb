@@ -9,8 +9,8 @@
 #  expires_at       :datetime
 #  usages_left      :integer
 #  last_use_attempt :datetime
-#  created_at       :datetime         not null
-#  updated_at       :datetime         not null
+#  created_at       :datetime
+#  updated_at       :datetime
 #
 # Indexes
 #

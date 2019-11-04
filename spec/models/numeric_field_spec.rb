@@ -6,8 +6,8 @@
 #  type           :string(255)
 #  sort_priority  :integer
 #  search_filter  :boolean          default(TRUE), not null
-#  created_at     :datetime         not null
-#  updated_at     :datetime         not null
+#  created_at     :datetime
+#  updated_at     :datetime
 #  community_id   :integer
 #  required       :boolean          default(TRUE)
 #  min            :float(24)

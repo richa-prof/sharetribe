@@ -13,8 +13,8 @@
 #
 # Indexes
 #
-#  index_transaction_transitions_on_conversation_id               (transaction_id)
-#  index_transaction_transitions_on_sort_key_and_conversation_id  (sort_key,transaction_id) UNIQUE
+#  index_transaction_transitions_on_sort_key_and_transaction_id  (sort_key,transaction_id) UNIQUE
+#  index_transaction_transitions_on_transaction_id               (transaction_id)
 #
 
 class TransactionTransition < ApplicationRecord

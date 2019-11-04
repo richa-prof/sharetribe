@@ -6,8 +6,8 @@
 #  transaction_id :integer
 #  start_on       :date
 #  end_on         :date
-#  created_at     :datetime         not null
-#  updated_at     :datetime         not null
+#  created_at     :datetime
+#  updated_at     :datetime
 #  start_time     :datetime
 #  end_time       :datetime
 #  per_hour       :boolean          default(FALSE)

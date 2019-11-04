@@ -1,4 +1,4 @@
-class AddFieldsToCommunities < ActiveRecord::Migration[5.1]
+class AddFieldsToCommunities < ActiveRecord::Migration[4.2][5.1]
   def change
     add_column :communities, :footer_theme, :integer, default: 0
     add_column :communities, :footer_copyright, :text

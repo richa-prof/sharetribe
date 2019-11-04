@@ -10,8 +10,8 @@
 #  op_name        :string(64)       not null
 #  op_input       :text(65535)
 #  op_output      :text(65535)
-#  created_at     :datetime         not null
-#  updated_at     :datetime         not null
+#  created_at     :datetime
+#  updated_at     :datetime
 #
 # Indexes
 #

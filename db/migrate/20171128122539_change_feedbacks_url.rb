@@ -1,4 +1,4 @@
-class ChangeFeedbacksUrl < ActiveRecord::Migration[5.1]
+class ChangeFeedbacksUrl < ActiveRecord::Migration[4.2][5.1]
   def up
     change_column :feedbacks, :url, :string, limit: 2048
   end

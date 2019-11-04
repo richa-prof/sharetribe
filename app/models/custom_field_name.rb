@@ -6,8 +6,8 @@
 #  value           :string(255)
 #  locale          :string(255)
 #  custom_field_id :string(255)
-#  created_at      :datetime         not null
-#  updated_at      :datetime         not null
+#  created_at      :datetime
+#  updated_at      :datetime
 #
 # Indexes
 #
